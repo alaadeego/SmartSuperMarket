@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartSuperMarket</string>
+    <string name="username">User Name</string>
+    <string name="Login">Log In</string>
+    <string name="Signup">Sign Up</string>
+    <string name="newaccount">New Account</string>
+    <string name="email">E-mail</string>
+    <string name="phonenumber">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="nearbymarket"> Nearby SuperMarket</string>
+    <string name="allmarket"> All Avilable SuperMarket</string>
+
+    <string name="information">Ensure Information </string>
+    <string name="send">Send</string>
+
+
+</resources>

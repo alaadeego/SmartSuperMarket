@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hpwin8.smartsupermarket.DeliveryActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information"
+        android:id="@+id/infotv"
+        android:textSize="20sp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:id="@+id/nameTV"
+
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phonenumber"
+        android:id="@+id/phoneTV"
+        android:textSize="20sp"
+        android:layout_below="@+id/nameTV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        android:id="@+id/locationbtn"
+        android:background="@drawable/loc1"
+        android:layout_gravity="center"
+        android:layout_below="@+id/phoneTV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longitudetxt"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="Longitude: "
+        android:layout_gravity="center"
+
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/locationbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitudetxt"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:hint="Latitude: "
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+
+        android:layout_below="@+id/longitudetxt"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="CONFIRM"
+        android:id="@+id/confirmbtn"
+        android:layout_gravity="clip_vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/longitudetxt"
+        android:layout_alignStart="@+id/longitudetxt" />
+
+</RelativeLayout>
